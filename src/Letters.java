@@ -79,8 +79,6 @@ public class Letters {
         nameLetters.add("C");
         nameLetters.add("A");
 
-
-
         for (String g : nameLetters) {
 
             if (g == "A" || g=="E" || g=="I" || g=="O" || g=="U") {
