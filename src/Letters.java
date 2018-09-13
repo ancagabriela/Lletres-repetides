@@ -2,7 +2,36 @@ import java.util.*;
 import java.lang.*;
 
 public class Letters {
+
     public static void main(String[] args) {
+
+        /*//ArrayList
+        ArrayList<String> nameLetters = new ArrayList<>();
+        nameLetters.add("5");
+        nameLetters.add("A");
+        nameLetters.add("N");
+        nameLetters.add("C");
+        nameLetters.add("A");
+        nameLetters.add("3");
+        nameLetters.add("1");
+        nameLetters.add("5");
+
+        for (String g : nameLetters) {
+
+            if (g.equals("A") || g.equals("E") || g.equals("I") || g.equals("O") || g.equals("U")) {
+                System.out.println("VOCAL");
+            } else if ((g.compareTo("0") >=0)  && (g.compareTo("9")<= 0)) {
+                System.out.println("Els noms de persones no contenen números!");
+            }
+           *//* } else if (g.equals("0") || g.equals("1") || g.equals("2") || g.equals("3") || g.equals("4") ||g.equals("5") || g.equals("6") || g.equals("7") || g.equals("8") || g.equals("9")) {
+                System.out.println("Els noms de persones no contenen números!");
+            }*//* else {
+                System.out.println("CONSONANT");
+            }
+        }
+    }
+}
+*/
 
 /*
         LinkedList<String> nombreLetras=new LinkedList<>();
@@ -40,13 +69,20 @@ public class Letters {
 
 
 
-/*
+
         //Map
-        HashMap<Integer, String> nameLetters=new HashMap<Integer, String>();
-        nameLetters.put(1, "A");
-        nameLetters.put(2, "N");
-        nameLetters.put(3, "C");
-        nameLetters.put(4, "A");
+        HashMap<String, Integer> nameLetters=new HashMap<>();
+        ArrayList<String> nameLetters2 = new ArrayList<>();
+        
+        nameLetters2.add("A");
+        nameLetters2.add("N");
+        nameLetters2.add("C");
+        nameLetters2.add("A");
+
+        for (:
+             ) {
+            
+        }
 
         System.out.println(nameLetters.size());
 
@@ -55,7 +91,7 @@ public class Letters {
         //nos imprime un set
         System.out.println(nameLetters.entrySet());
 
-        for(Map.Entry<Integer, String> m: nameLetters.entrySet()){
+        for(Map.Entry<String, Integer> m: nameLetters.entrySet()){
 
             Integer key=m.getKey();
 
@@ -68,29 +104,11 @@ public class Letters {
     }
 
 }
-*/
 
 
 
-          //ArrayList
-        ArrayList<String> nameLetters = new ArrayList<>();
-        nameLetters.add("A");
-        nameLetters.add("N");
-        nameLetters.add("C");
-        nameLetters.add("A");
-
-        for (String g : nameLetters) {
-
-            if (g == "A" || g=="E" || g=="I" || g=="O" || g=="U") {
-                System.out.println("VOCAL");
-            } else {
-                System.out.println("CONSONANT");
 
 
-            }
-        }
-    }
-}
 
 
 
